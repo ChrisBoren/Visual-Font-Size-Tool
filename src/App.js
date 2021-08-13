@@ -30,16 +30,23 @@ function App() {
     <>
       <div className="App">
         <div className="wrapper">
+          <h1>H1 Header Text - 3rem - {baseFontSize * 3}px</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa earum expedita cumque laboriosam voluptatum? Placeat voluptas officiis molestias, repellendus, consectetur hic dolor nemo explicabo non iure, officia cupiditate vero reiciendis.</p>
+          <h2>H2 Header Text - 2.5rem - {baseFontSize * 2.5}px</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa earum expedita cumque laboriosam voluptatum? Placeat voluptas officiis molestias, repellendus, consectetur hic dolor nemo explicabo non iure, officia cupiditate vero reiciendis.</p>
+          <h3>H3 Header Text - 2rem - {baseFontSize * 2}px</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa earum expedita cumque laboriosam voluptatum? Placeat voluptas officiis molestias, repellendus, consectetur hic dolor nemo explicabo non iure, officia cupiditate vero reiciendis.</p>
+          <h4>H4 Header Text - 1.5rem - {baseFontSize * 1.5}px</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa earum expedita cumque laboriosam voluptatum? Placeat voluptas officiis molestias, repellendus, consectetur hic dolor nemo explicabo non iure, officia cupiditate vero reiciendis.</p>
+          <h5>H5 Header Text - 1rem - {baseFontSize * 1}px</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa earum expedita cumque laboriosam voluptatum? Placeat voluptas officiis molestias, repellendus, consectetur hic dolor nemo explicabo non iure, officia cupiditate vero reiciendis.</p>
         </div>
-        <div className="wrapper">
-          <div className="buttons">
-            <p>Current base size is: {baseFontSize}</p>
+          <div className="toolbox">
+            <p>Current base size is: <strong>{baseFontSize}px</strong></p>
             <button onClick={increaseBase}>Increase</button>
             <button onClick={decreaseBase}>Decrease</button>
             <button onClick={resetBase}>Reset</button>
           </div>
-        </div>
       </div>
     </>
   );
